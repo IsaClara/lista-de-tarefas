@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista de tarefas divertida com tema espacial.">
+    <meta name="keywords"
+        content="lista de tarefas, produtividade, espaço, space , site interativo, to-do list, list, fun">
+    <meta name="author" content="Isa Clara">
+    <meta name="copyright" content="© 2026 Isa Clara">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="particulas"></div>
+        <header>
+            <h1>Lista de Tarefas</h1>
+        </header>
+        <main class="centro-container">
+            <img src="../img/saturno.gif" id="gif-saturno">
+
+            <nav class="sidebar-pastas">
+                <div id="adicionar-pastas">
+                    <input type="text" id="input-pastas" placeholder="Criar pasta">
+                    <button onclick="adicionarPasta()" type="button">+</button>
+                </div>
+                <div id="lista-pastas"></div>
+            </nav>
+            <div class="lista-de-tarefas">
+                <form id="input-container">
+                    <input type="text" placeholder="Digite sua tarefa" id="tarefa-input">
+                    <button onclick="adicionarTarefa()" type="button">+</button>
+                </form>
+                <ul id="lista-container"></ul>
+            </div>
+        </main>
+        <footer>
+            <p>Site criado por <a href="https://github.com/IsaClara">Isa Clara</a> | Lista de Tarefas 🚀</p>
+            <a href="about.html">✨ Sobre mim</a>
+            <div class="footer-icons">
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
