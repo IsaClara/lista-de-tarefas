@@ -46,6 +46,9 @@ O projeto foi desenvolvido como parte do meu aprendizado em **desenvolvimento fr
 - UX básica (feedbacks visuais e alertas)
 
 ---
+## Preview
+
+![Preview do projeto](/img/preview.png)
 
 ## Estrutura do Projeto
 
